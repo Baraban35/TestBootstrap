@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Maquette suivisio espace étudiant</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -44,6 +44,41 @@
 
       <div class="starter-template">
         <h1>Maquette suivisio espace étudiant</h1>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+             <div class="panel panel-default">
+                   <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                             Ma première situation
+                            </a>
+                        </h4>
+                   </div>
+                   <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <ul>
+                                <li>2 activités</li>
+                                <li>Analyser un cahier des charges</li>
+                                <li>Tester un service</li>             
+                            </ul>
+                        </div>
+                    </div>
+                   <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                             Ma deuxième situation
+                            </a>
+                        </h4>
+                   </div>
+                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <ul>
+                                <li>1 activités</li>
+                                <li>Etude d'une technologie, d'un composant</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
       </div>
 
     </div><!-- /.container -->
